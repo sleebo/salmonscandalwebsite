@@ -18,7 +18,7 @@ function ssAnim() {
     $('#blackCircle3').click(function () {
         $(this).animate({
             left: 450,
-            top: 500
+            top: 3
         });
     });
 };
