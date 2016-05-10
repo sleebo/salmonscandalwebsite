@@ -15,8 +15,14 @@
     font-family: "Poiret One";
     font-style: italic;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 28px;
 
     
 
+}
+
+@font-face{
+    font-family: "Poiret One";
+    src: url('font/PoiretOne-Regular.ttf'),
+    url('PoiretOne.eot'); /* IE */
 }
