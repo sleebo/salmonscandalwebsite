@@ -43,14 +43,12 @@
 
 
 .circle-droppable {
-    width: 10%;
-    height: 10%;
-    border-radius: 150px;
+    width: 150px;
+    height: 150px;
     padding: 0.5em;
     float: left;
-    margin-left: 150px;
-    margin-top: 150px;
-background-color: red;
+    margin: 300px;
+background-color: transparent;
 }
 
 .circle-dropped {
