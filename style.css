@@ -21,6 +21,16 @@
     background: white;
 }
 
+.navbar-transparent .navbar > li > a:hover, .navbar-transparent .navbar > li > a:focus {
+    background-color: black;
+    color: blue;
+}
+
+.goplay {
+    color: #33cc66;
+}
+
+
 @font-face {
     font-family: "Poiret One";
     src: url('font/PoiretOne-Regular.ttf'), url('PoiretOne.eot');
