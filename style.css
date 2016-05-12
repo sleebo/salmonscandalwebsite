@@ -16,6 +16,11 @@
     font-size: 28px;
 }
 
+
+.icon-bar {
+    background: white;
+}
+
 @font-face {
     font-family: "Poiret One";
     src: url('font/PoiretOne-Regular.ttf'), url('PoiretOne.eot');
@@ -27,8 +32,15 @@
     width: 100%;
     height: 100%;
     background-size: contain;
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
+}
+
+.FlexBox {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
 }
 
 .circle-draggable {
@@ -37,48 +49,38 @@
     height: 10%;
     background-size: contain;
     background-repeat: no-repeat;
-      padding: 0.5em;
+    padding: 0.5em;
     float: left;
     margin: 10px 10px 10px 0;
 }
 
-
-
 .circle-droppable {
-   
-background-color: red;
+    background-color: black;
+    border: 1px dotted white;
 }
 
 #drop1 {
-     width: 4%;
-    height: 8%;
-    border-radius: 100%;
+    width: 1%;
+    height: 5%;
+    align-self: flex-start;
     float: left;
-    margin-left: 200px;
-    margin-top: 170px;
-    
+    flex: 1;
 }
 
 #drop2 {
-     width: 4%;
-    height: 8%;
-    border-radius: 150px;
+    width: 1%;
+    height: 5%;
     float: left;
-    margin-left: 92px;
-    margin-top: 314px;
+    flex: 1;
 }
 
 #drop3 {
-     width: 4%;
-    height: 8%;
-    border-radius: 150px;
+    width: 1%;
+    height: 5%;
     float: left;
-    margin-left: -300px;
-    margin-top: 455px;
+    flex: 1;
 }
 
-
 .circle-dropped {
-    
-    background-color:white;
+    background-color: white;
 }

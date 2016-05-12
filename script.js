@@ -1,5 +1,5 @@
 $(function () {
-    $(".circle-draggable").draggable();
+    $(".circle-draggable").draggable({ snap: ".circle-droppable" });
 
     $(".circle-droppable").droppable({
         drop: function (event, ui) {
@@ -9,6 +9,7 @@ $(function () {
                 .html("Dropped!");
         }
     });
+
 });
 
 
