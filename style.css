@@ -9,11 +9,6 @@
     background-color: black;
 }
 
-.goplay:hover {
-    color: #33cc66;
-}
-
-
 .navbar-brand {
     color: white;
     font-family: "Poiret One";
@@ -104,8 +99,6 @@
     font-weight: bold;
     font-style: italic;    
 }
-
-
 
 @font-face {
     font-family: "Poiret One";
